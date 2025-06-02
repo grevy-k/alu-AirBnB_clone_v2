@@ -6,7 +6,7 @@ from sqlalchemy.orm import relationship
 
 
 class User(BaseModel, Base):
-    """class for user
+    """This is the class for user
     Attributes:
         email: email address
         password: password for you login

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""base model class for AirBnB"""
+"""This is the base model class for AirBnB"""
 from sqlalchemy.ext.declarative import declarative_base
 import uuid
 import models
@@ -11,7 +11,7 @@ Base = declarative_base()
 
 
 class BaseModel:
-    """defines all common attributes/methods
+    """This class will defines all common attributes/methods
     for other classes
     """
     id = Column(String(60), unique=True, nullable=False, primary_key=True)
